@@ -25,6 +25,7 @@ button {
   font-size: 16px;
 }
 
+/*From fundamentals work*/
 .clearfix {
   overflow: auto;
   zoom: 1;
@@ -38,12 +39,14 @@ User styles
 
 header,
 footer {
-  padding: 2em;
+  padding: 2.5em 2em 2em;
 }
 
 header{
     background-color: #fff;
     border-bottom: 5px solid #ecf0f1;
+
+    /*sticky header help found here: http://stackoverflow.com/questions/10975268/position-fixed-header-in-html*/
     position: fixed;
     height: 134px;
     width: 100%;
@@ -76,6 +79,7 @@ header p {
 }
 
 #container section {
+  margin-bottom: 0;
   min-height: 100vh;
   padding: 5em 0;
 }
