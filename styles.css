@@ -24,9 +24,14 @@ User styles
 }
 
 button {
+  background-color: #e74c3c;
   display: block;
   font-size: 1em;
   margin: 2em auto;
+}
+
+a#button {
+    text-decoration: none;
 }
 
 footer {
