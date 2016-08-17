@@ -17,6 +17,10 @@ User styles
   margin: 0 auto;
 }
 
+footer {
+  margin-top: 50px;
+}
+
 footer p {
   float: left;
 }
