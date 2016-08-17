@@ -21,7 +21,12 @@ User styles
 
 header,
 footer {
-  margin: 1em 2em;
+  padding: 1em 2em;
+}
+
+header{
+    border-bottom: 5px solid #ecf0f1;
+    margin-bottom: 5em;
 }
 
 header h1 {
