@@ -19,6 +19,11 @@ p {
 User styles
 ======================= */
 
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
 header,
 footer {
   padding: 1em 2em;
