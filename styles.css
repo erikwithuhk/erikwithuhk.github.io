@@ -24,10 +24,13 @@ User styles
 }
 
 button {
-  background-color: #e74c3c;
+  background-color: #fff;
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
   display: block;
   font-size: 1em;
   margin: 2em auto;
+  padding: 0.5em 1em;
 }
 
 a#button {
