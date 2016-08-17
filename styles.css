@@ -23,18 +23,19 @@ User styles
   margin: 0 auto;
 }
 
-button {
+#button {
+  text-align: center;
+}
+
+#button a {
   background-color: #fff;
   border: 2px solid #e74c3c;
   color: #e74c3c;
-  display: block;
+  display: inline-block;
   font-size: 1em;
   margin: 2em auto;
   padding: 0.5em 1em;
-}
-
-a#button {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer {
