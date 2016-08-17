@@ -19,7 +19,8 @@ p {
 User styles
 ======================= */
 
-header {
+header,
+footer {
   margin: 1em 2em;
 }
 
