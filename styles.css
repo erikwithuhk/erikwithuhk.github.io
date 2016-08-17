@@ -76,7 +76,10 @@ footer {
 }
 
 footer p {
+  color: #ecf0f1;
   float: left;
+  font-size: 0.75em;
+  font-weight: 400;
 }
 
 #social_links {
