@@ -17,6 +17,12 @@ User styles
   margin: 0 auto;
 }
 
+button {
+  display: block;
+  font-size: 1em;
+  margin: 2em auto;
+}
+
 footer {
   margin-top: 50px;
 }
