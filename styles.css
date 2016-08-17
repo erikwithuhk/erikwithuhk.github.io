@@ -2,7 +2,13 @@
 Resets
 ======================= */
 
-body, p {
+body,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body,
+p {
   margin: 0;
 }
 
