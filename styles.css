@@ -50,10 +50,10 @@ header{
 
     /*sticky header help found here: http://stackoverflow.com/questions/10975268/position-fixed-header-in-html*/
     position: fixed;
-    height: 134px;
-    width: 100%;
     top: 0;
-    z-index: 100;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 header h1 {
@@ -99,7 +99,8 @@ nav a:hover {
 
 .container {
   max-width: 960px;
-  margin: 134px auto 0;
+  margin: 0 auto;
+  padding-top: 5em;
 }
 
 .container p {
@@ -109,12 +110,29 @@ nav a:hover {
 #about,
 #contact {
   margin-bottom: 0;
-  min-height: 100vh;
-  padding: 5em 0;
+  height: 100%;
+}
+
+#about {
+  padding-top: 137px;
+}
+
+#about i {
+  display: block;
+  padding-top: 90%;
+  text-align: center;
 }
 
 #contact {
   background-color: #ecf0f1;
+}
+
+/* source for below: http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -137px;
+    visibility: hidden;
 }
 
 #button {
