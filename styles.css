@@ -193,6 +193,10 @@ a.anchor {
 }
 
 #button {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  margin-left: -56px;
   text-align: center;
 }
 
@@ -214,6 +218,11 @@ a.anchor {
 .submit:hover {
   background-color: #e74c3c;
   color: #fff;
+}
+
+#button i {
+  display: block;
+  font-weight: bold;
 }
 
 label,
