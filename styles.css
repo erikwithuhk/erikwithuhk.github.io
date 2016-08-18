@@ -19,7 +19,10 @@ Global styles
 ======================= */
 
 body,
-button {
+button,
+input,
+label,
+.submit {
   color: #2c3e50;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -118,7 +121,8 @@ nav a:hover {
   text-align: center;
 }
 
-#button a {
+#button a,
+.submit {
   background-color: #fff;
   border: 2px solid #e74c3c;
   border-radius: 2px;
@@ -130,9 +134,26 @@ nav a:hover {
   text-decoration: none;
 }
 
-#button a:hover {
+#button a:hover,
+.submit:hover {
   background-color: #e74c3c;
   color: #fff;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+label {
+  margin: 1em 0 0.5em;
+}
+
+input,
+textarea {
+  border: 1px solid #67848b;
+  padding: 0.5em;
 }
 
 footer {
