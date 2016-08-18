@@ -1,3 +1,16 @@
+/***=======================
+Colors
+
+Navy        | 2c3e50
+Red         | e74c3c
+Gray        | ecf0f1
+Bright blue | 3498DB
+Medium blue | 2980b9
+
+=======================***/
+
+
+
 /* =======================
 Resets
 ======================= */
@@ -23,9 +36,13 @@ button,
 input,
 label,
 .submit {
-  color: #2c3e50;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+}
+
+body,
+input {
+  color: #2c3e50;
 }
 
 /*From fundamentals work*/
@@ -128,7 +145,8 @@ nav a:hover {
 }
 
 #contact {
-  background-color: #ecf0f1;
+  background-color: #3498DB;
+  color: #fff;
 }
 
 /* source for below: http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
