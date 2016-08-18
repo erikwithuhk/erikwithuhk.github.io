@@ -94,19 +94,24 @@ nav a:hover {
   color: #fff;
 }
 
-#container {
+.container {
   max-width: 960px;
   margin: 134px auto 0;
 }
 
-#container p {
+.container p {
   text-align: center;
 }
 
-#container section {
+#about,
+#contact {
   margin-bottom: 0;
   min-height: 100vh;
   padding: 5em 0;
+}
+
+#contact {
+  background-color: #ecf0f1;
 }
 
 #button {
