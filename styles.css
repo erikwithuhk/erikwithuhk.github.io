@@ -175,12 +175,6 @@ nav a:hover {
   padding-top: 137px;
 }
 
-#about i {
-  display: block;
-  padding-top: 90%;
-  text-align: center;
-}
-
 #contact {
   background-color: #3498DB;
   color: #fff;
@@ -275,6 +269,7 @@ footer p {
   font-size: 0.75em;
   font-weight: 400;
   line-height: 43px;
+  margin-bottom: 0;
 }
 
 #social_links {
