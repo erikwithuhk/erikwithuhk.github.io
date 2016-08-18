@@ -80,7 +80,7 @@ nav {
 nav a {
   display: inline-block;
   line-height: 65px;
-  margin: 1em;
+  margin: 0 1em;
 }
 
 #container {
