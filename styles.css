@@ -69,6 +69,19 @@ header p {
   font-size: 0.85em;
 }
 
+#brand {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
 #container {
   max-width: 960px;
   margin: 134px auto 0;
