@@ -95,8 +95,6 @@ header {
 header{
     background-color: #fff;
     border-bottom: 5px solid #ecf0f1;
-
-    /*sticky header help found here: http://stackoverflow.com/questions/10975268/position-fixed-header-in-html*/
     position: fixed;
     top: 0;
     left: 0;
@@ -110,6 +108,7 @@ header{
   line-height: 1;
   padding: 1.0938em 0;
 }
+
 #brand a {
   color: #2c3e50;
   text-decoration: none;
@@ -123,6 +122,25 @@ header{
 
 #brand h1 span {
   color: #e74c3c;
+  /*color: #fff;*/
+  /*transition: color 0.3s ease-in-out;*/
+}
+
+#brand:hover h1 span {
+  /*color: #e74c3c;*/
+  animation-name: bounce;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes bounce {
+  from {
+    font-size: inherit;
+  }
+
+  to {
+    font-size: 0em;
+  }
 }
 
 #brand p {
@@ -199,6 +217,7 @@ a.anchor {
   margin-left: -56px;
   text-align: center;
 }
+
 
 #button a,
 .submit {
