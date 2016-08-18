@@ -38,6 +38,8 @@ label,
 .submit {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.45;
 }
 
 body,
@@ -45,7 +47,36 @@ input {
   color: #2c3e50;
 }
 
-/*From fundamentals work*/
+p {
+  margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2 {
+  font-size: 2.369em;
+}
+
+h3 {
+  font-size: 1.777em;
+}
+
+h4 {
+  font-size: 1.333em;
+}
+
 .clearfix {
   overflow: auto;
   zoom: 1;
@@ -76,6 +107,7 @@ header{
 #brand {
   float: left;
   height: 100px;
+  line-height: 1;
   padding: 1.0938em 0;
 }
 #brand a {
@@ -95,6 +127,7 @@ header{
 
 #brand p {
   font-size: 0.85em;
+  margin: 0;
 }
 
 nav {
@@ -151,6 +184,10 @@ nav a:hover {
 #contact {
   background-color: #3498DB;
   color: #fff;
+}
+
+#contact h2 {
+  margin-top: 0;
 }
 
 /* source for below: http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
