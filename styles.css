@@ -90,6 +90,10 @@ nav a {
   margin: 0;
   text-align: center;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 nav a:hover {
@@ -150,6 +154,7 @@ a.anchor {
   margin: 2em auto;
   padding: 0.5em 1em;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 #button a:hover,
@@ -181,6 +186,10 @@ footer {
 
 footer .fa-lg:hover {
   opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
 }
 
 footer .fa-lg, {
