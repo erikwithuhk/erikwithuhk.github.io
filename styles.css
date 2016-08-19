@@ -246,6 +246,7 @@ a.anchor {
 #button i {
   display: block;
   font-weight: bold;
+  line-height: inherit;
 }
 
 label,
