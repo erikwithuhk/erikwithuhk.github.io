@@ -184,7 +184,8 @@ nav a:hover {
 }
 
 #about,
-#contact {
+#work_section,
+#contact_section {
   margin-bottom: 0;
   height: 100%;
 }
@@ -193,12 +194,15 @@ nav a:hover {
   padding-top: 137px;
 }
 
-#contact {
+#work_section {
   background-color: #3498DB;
+  border-bottom: 137px solid #fff;
   color: #fff;
+  margin-bottom: -137px;
 }
 
-#contact h2 {
+#work_section,
+#contact_section h2 {
   margin-top: 0;
 }
 
