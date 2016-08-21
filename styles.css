@@ -85,7 +85,7 @@ h4 {
 
 
 /* =======================
-User styles
+Header
 ======================= */
 
 header {
@@ -173,6 +173,12 @@ nav a:hover {
   color: #fff;
 }
 
+
+
+/* =======================
+About
+======================= */
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -194,6 +200,12 @@ nav a:hover {
   padding-top: 137px;
 }
 
+
+
+/* =======================
+Work
+======================= */
+
 #work_section {
   background-color: #3498DB;
   border-bottom: 137px solid #fff;
@@ -206,6 +218,7 @@ nav a:hover {
   margin-top: 0;
 }
 
+/*Makes the nav link jump to the right place with sticky nav*/
 /* source for below: http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
 a.anchor {
     display: block;
@@ -249,6 +262,12 @@ a.anchor {
   line-height: inherit;
 }
 
+
+
+/* =======================
+Contact
+======================= */
+
 label,
 input,
 textarea {
@@ -268,6 +287,12 @@ textarea {
 .submit {
   cursor: pointer;
 }
+
+
+
+/* =======================
+Footer
+======================= */
 
 footer {
   background-color: #2c3e50;
