@@ -182,7 +182,7 @@ About
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 5em;
+  padding-top: 1.414em;
 }
 
 .container p {
@@ -200,15 +200,23 @@ About
   padding-top: 137px;
 }
 
-#button {
+#main_button,
+.submit {
+  margin: 2em auto;
+}
+
+#main_button {
   position: absolute;
   bottom: 2em;
   left: 50%;
   margin-left: -56px;
+}
+
+.button {
   text-align: center;
 }
 
-#button a,
+.button,
 .submit {
   background-color: #fff;
   border: 2px solid #e74c3c;
@@ -216,19 +224,18 @@ About
   color: #e74c3c;
   display: inline-block;
   font-size: 1em;
-  margin: 2em auto;
   padding: 0.5em 1em;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 
-#button a:hover,
+.button:hover,
 .submit:hover {
   background-color: #e74c3c;
   color: #fff;
 }
 
-#button i {
+.button i {
   display: block;
   font-weight: bold;
   line-height: inherit;
@@ -250,6 +257,7 @@ Work
 #work_section,
 #contact_section h2 {
   margin-top: 0;
+  text-align: center;
 }
 
 /*Makes the nav link jump to the right place with sticky nav*/
@@ -262,15 +270,41 @@ a.anchor {
 }
 
 #work_container {
-  padding-left: 1em;
+  margin: 3em auto;
+}
+
+#work_container:last-child {
+  margin-right: 0;
 }
 
 .work-item {
-  background-color: #000;
   float: left;
-  margin-right: 1em;
-  height: 5em;
-  width: 15em;
+  margin-right: 1%;
+  width: 32%;
+}
+
+.overlay {
+  /*padding: 2em;*/
+}
+
+.overlay h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.work-image {
+  /*background-color: #000;
+  height: 15em;*/
+}
+
+.work-image img {
+  width: 100%;
+};
+
+.live-button,
+.github-button {
+  margin: 1em;
 }
 
 
