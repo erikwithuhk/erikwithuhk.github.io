@@ -200,6 +200,40 @@ About
   padding-top: 137px;
 }
 
+#button {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  margin-left: -56px;
+  text-align: center;
+}
+
+#button a,
+.submit {
+  background-color: #fff;
+  border: 2px solid #e74c3c;
+  border-radius: 2px;
+  color: #e74c3c;
+  display: inline-block;
+  font-size: 1em;
+  margin: 2em auto;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#button a:hover,
+.submit:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#button i {
+  display: block;
+  font-weight: bold;
+  line-height: inherit;
+}
+
 
 
 /* =======================
@@ -227,39 +261,16 @@ a.anchor {
     visibility: hidden;
 }
 
-#button {
-  position: absolute;
-  bottom: 2em;
-  left: 50%;
-  margin-left: -56px;
-  text-align: center;
+#work_container {
+  padding-left: 1em;
 }
 
-
-#button a,
-.submit {
-  background-color: #fff;
-  border: 2px solid #e74c3c;
-  border-radius: 2px;
-  color: #e74c3c;
-  display: inline-block;
-  font-size: 1em;
-  margin: 2em auto;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-#button a:hover,
-.submit:hover {
-  background-color: #e74c3c;
-  color: #fff;
-}
-
-#button i {
-  display: block;
-  font-weight: bold;
-  line-height: inherit;
+.work-item {
+  background-color: #000;
+  float: left;
+  margin-right: 1em;
+  height: 5em;
+  width: 15em;
 }
 
 
