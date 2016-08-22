@@ -199,14 +199,14 @@ About
 
 #about_text {
   float: left;
-  margin-right: 2%;
+  margin-right: 4%;
   text-align: left;
-  width: 65%;
+  width: 64%;
 }
 
 #about_image {
   float: right;
-  width: 32%
+  width: 31%
 }
 
 #about_image img {
