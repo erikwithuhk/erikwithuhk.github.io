@@ -330,6 +330,8 @@ label,
 input,
 textarea {
   display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 label {
@@ -340,10 +342,12 @@ input,
 textarea {
   border: 1px solid #67848b;
   padding: 0.5em;
+  width: 100%;
 }
 
 .submit {
   cursor: pointer;
+  display: block;
 }
 
 
@@ -425,10 +429,15 @@ Media queries
     #about_image img {
       width: 40%;
     }
+
+    input,
+    textarea {
+      width: 40%;
+    }
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   header {
       padding: 1em 2em;
   }
