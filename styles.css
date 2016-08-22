@@ -355,21 +355,31 @@ Contact
 label,
 input,
 textarea {
-  border-radius: 2px;
   display: block;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 label {
-  margin: 1em 0 0.5em;
+  background-color: #2c3e50;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #fff;
+  margin-top: 1em;
+  padding: 0.5em 0;
 }
 
 input,
 textarea {
   border: 1px solid #67848b;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
   padding: 0.5em;
-  width: 100%;
   -webkit-appearance: none;
 }
 
@@ -472,6 +482,7 @@ Media queries
       width: 40%;
     }
 
+    label,
     input,
     textarea {
       width: 40%;
