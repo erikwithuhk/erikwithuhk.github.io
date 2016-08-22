@@ -190,11 +190,13 @@ About
   padding-top: 137px;
 }
 
-#about_image {
+#about_text {
+  text-align: center;
 }
 
-#about_text {
-  text-align: left;
+#about_text h3 {
+  font-size: 1.25em;
+  margin-top: 2em;
 }
 
 #about_image img {
@@ -443,6 +445,11 @@ Media queries
     margin-right: 4%;
     text-align: left;
     width: 64%;
+  }
+
+  #about_text h3 {
+    font-size: 1.777em;
+    margin: 0.5em 0;
   }
 
   #about_image {
