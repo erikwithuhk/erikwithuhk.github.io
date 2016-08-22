@@ -115,7 +115,7 @@ header {
 
 #brand h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -145,17 +145,15 @@ header {
 }
 
 nav {
-  float: right;
+  text-align: center;
 }
 
 nav a {
-  border-radius: 100%;
   color: #2c3e50;
   display: inline-block;
-  line-height: 100px;
-  height: 100px;
-  width: 100px;
-  margin: 0;
+  font-size: 14px;
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
   text-align: center;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -399,7 +397,18 @@ footer p {
 Media queries
 ======================= */
 
-@media screen and (min-width: 700) {
+@media screen and (min-width: 400px) {
+  #brand h1 {
+    font-size: 2.5em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
   header {
       padding: 1em 2em;
   }
@@ -410,9 +419,29 @@ Media queries
     line-height: 1;
     padding: 1.0938em 0;
   }
+
+  nav {
+    float: right;
+  }
+
+  nav a {
+    border-radius: 100%;
+    color: #2c3e50;
+    display: inline-block;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
 }
 
-@media screen and (min-width: 960) {
+@media screen and (min-width: 960px) {
   .container {
     padding: 3em 0em 0em;
   }
