@@ -25,6 +25,10 @@ body {
   height: 100%;
 }
 
+img {
+  width: 100%;
+}
+
 
 
 /* =======================
@@ -182,10 +186,6 @@ About
   padding-top: 3em;
 }
 
-.container p {
-  text-align: center;
-}
-
 #about,
 #work_section,
 #contact_section {
@@ -195,6 +195,23 @@ About
 
 #about {
   padding-top: 137px;
+}
+
+#about_text {
+  float: left;
+  margin-right: 2%;
+  text-align: left;
+  width: 65%;
+}
+
+#about_image {
+  float: right;
+  width: 32%
+}
+
+#about_image img {
+  border-radius: 100%;
+  border: 5px solid #ecf0f1;
 }
 
 #main_button,
