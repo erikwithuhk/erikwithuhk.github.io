@@ -220,10 +220,6 @@ About
   position: absolute;
 }
 
-.button {
-  text-align: center;
-}
-
 .button,
 .submit {
   background-color: #fff;
@@ -233,6 +229,7 @@ About
   display: inline-block;
   font-size: 1em;
   padding: 0.5em 1em;
+  text-align: center;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
