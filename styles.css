@@ -151,7 +151,7 @@ nav {
 nav a {
   color: #2c3e50;
   display: inline-block;
-  font-size: 14px;
+  font-size: 0.875em;
   margin: 0 0.5em;
   padding: 0.5em 1em;
   text-align: center;
@@ -288,7 +288,7 @@ a.anchor {
 
 .overlay {
   background: rgba(0, 0, 0, 0.72);
-  font-size: 14px;
+  font-size: 0.875em;
   margin: 12% 15% 20%;
   padding: 1.5em;
   position: absolute;
@@ -429,7 +429,7 @@ footer .fa-twitter {
 }
 
 footer p {
-  font-size: 0.75em;
+  font-size: 0.875em;
   font-weight: 400;
   line-height: 43px;
   margin-bottom: 0;
@@ -568,7 +568,7 @@ Media queries
   }
 
   .overlay {
-    font-size: 12px;
+    font-size: 0.75em;
     padding: 0.75em;
   }
 }
