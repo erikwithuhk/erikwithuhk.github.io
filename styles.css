@@ -340,6 +340,7 @@ textarea {
   border: 1px solid #67848b;
   padding: 0.5em;
   width: 100%;
+  -webkit-appearance: none;
 }
 
 .submit {
