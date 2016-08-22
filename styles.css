@@ -275,7 +275,7 @@ a.anchor {
 
 .work-item {
   float: left;
-  margin-right: 1%;
+  margin: 0 auto;
   width: 32%;
 }
 
@@ -293,11 +293,15 @@ a.anchor {
   width: 100%;
 }
 
+.work-links {
+  text-align: center;
+}
+
 .live-button,
 .github-button {
   border-color: #2c3e50;
   color: #2c3e50;
-  margin: -1em 0.5em 0;
+  margin: 0 0.25em;
 }
 
 .live-button:hover,
