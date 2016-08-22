@@ -190,21 +190,19 @@ About
   padding-top: 137px;
 }
 
-#about_text {
-  float: left;
-  margin-right: 4%;
-  text-align: left;
-  width: 64%;
+#about_image {
 }
 
-#about_image {
-  float: right;
-  width: 31%
+#about_text {
+  text-align: left;
 }
 
 #about_image img {
   border-radius: 100%;
   border: 5px solid #ecf0f1;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
 }
 
 #main_button,
@@ -213,10 +211,11 @@ About
 }
 
 #main_button {
-  position: absolute;
   bottom: 2em;
+  display: none;
   left: 50%;
   margin-left: -56px;
+  position: absolute;
 }
 
 .button {
@@ -407,6 +406,12 @@ Media queries
   }
 }
 
+@media screen and (min-width: 550px) {
+    #about_image img {
+      width: 40%;
+    }
+}
+
 
 @media screen and (min-width: 700px) {
   header {
@@ -426,18 +431,31 @@ Media queries
 
   nav a {
     border-radius: 100%;
-    color: #2c3e50;
-    display: inline-block;
     line-height: 100px;
     height: 100px;
     width: 100px;
     margin: 0;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+    padding: 0;
+  }
+
+  #about_text {
+    float: left;
+    margin-right: 4%;
+    text-align: left;
+    width: 64%;
+  }
+
+  #about_image {
+    float: right;
+    width: 31%
+  }
+
+  #about_image img {
+    width: 100%;
+  }
+
+  #main_button {
+    display: block;
   }
 }
 
