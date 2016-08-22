@@ -93,10 +93,6 @@ Header
 ======================= */
 
 header {
-  padding: 1em 2em;
-}
-
-header{
     background-color: #fff;
     border-bottom: 5px solid #ecf0f1;
     position: fixed;
@@ -107,10 +103,9 @@ header{
 }
 
 #brand {
-  float: left;
-  height: 100px;
   line-height: 1;
   padding: 1.0938em 0;
+  text-align: center;
 }
 
 #brand a {
@@ -183,7 +178,7 @@ About
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 3em;
+  padding: 3em 1em 0em;
 }
 
 #about,
@@ -396,4 +391,29 @@ footer p {
 
 #social_links {
   float: right;
+}
+
+
+
+/* =======================
+Media queries
+======================= */
+
+@media screen and (min-width: 700) {
+  header {
+      padding: 1em 2em;
+  }
+
+  #brand {
+    float: left;
+    height: 100px;
+    line-height: 1;
+    padding: 1.0938em 0;
+  }
+}
+
+@media screen and (min-width: 960) {
+  .container {
+    padding: 3em 0em 0em;
+  }
 }
