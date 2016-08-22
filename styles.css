@@ -359,16 +359,20 @@ footer {
   text-align: center;
 }
 
+footer a {
+  text-decoration: none;
+}
+
+footer .fa-lg, {
+  font-size: 28px;
+}
+
 footer .fa-lg:hover {
   opacity: 0.5;
   transition: opacity 0.3s ease-in-out;
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
-}
-
-footer .fa-lg, {
-  font-size: 28px;
 }
 
 footer p,
