@@ -122,12 +122,9 @@ header{
 
 #brand h1 span {
   color: #e74c3c;
-  /*color: #fff;*/
-  /*transition: color 0.3s ease-in-out;*/
 }
 
 #brand:hover h1 span {
-  /*color: #e74c3c;*/
   animation-name: bounce;
   animation-duration: 0.75s;
   animation-timing-function: ease-out;
@@ -260,7 +257,7 @@ Work
   text-align: center;
 }
 
-/*Makes the nav link jump to the right place with sticky nav*/
+/* Makes the nav link jump to the right place with sticky nav* /
 /* source for below: http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header */
 a.anchor {
     display: block;
@@ -291,11 +288,6 @@ a.anchor {
   font-size: 1em;
   font-weight: bold;
   margin: 0;
-}
-
-.work-image {
-  /*background-color: #000;
-  height: 15em;*/
 }
 
 .work-image img {
