@@ -115,8 +115,9 @@ header {
 
 #brand h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.75rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 #brand h1 span {
@@ -140,7 +141,7 @@ header {
 }
 
 #brand p {
-  font-size: 0.85em;
+  font-size: 1.05rem;
   margin: 0;
 }
 
@@ -305,7 +306,6 @@ a.anchor {
   -o-transition: visibility opacity 0.2s;
 }
 
-
 .work-image:hover .overlay {
   visibility: visible;
   opacity: 1;
@@ -443,7 +443,11 @@ Media queries
 
 @media screen and (min-width: 400px) {
   #brand h1 {
-    font-size: 2.5em;
+    font-size: 2.125em;
+  }
+
+  #brand p {
+    font-size: 1.275rem;
   }
 
   nav a {
