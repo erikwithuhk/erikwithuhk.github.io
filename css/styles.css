@@ -555,6 +555,7 @@ Media queries
 
   #main_button {
     display: block;
+    transition: all 0.25s ease-in;
   }
 
   #work_section {
