@@ -225,11 +225,25 @@ About
 }
 
 #main_button {
+  animation-name: fade-in-button;
+  animation-duration: 2s;
   bottom: 2em;
   display: none;
   left: 50%;
   margin-left: -56px;
   position: absolute;
+}
+
+@keyframes fade-in-button {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .button,
