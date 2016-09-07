@@ -201,11 +201,22 @@ About
 }
 
 #about_image img {
+  animation-name: fade-in;
+  animation-duration: 2s;
   border-radius: 100%;
   border: 5px solid #ecf0f1;
   display: block;
   margin: 0 auto;
   width: 50%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #main_button,
@@ -555,7 +566,7 @@ Media queries
 
   #main_button {
     display: block;
-    transition: all 0.25s ease-in;
+    transition: all 0.25s;
   }
 
   #work_section {
