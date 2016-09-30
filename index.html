@@ -108,11 +108,10 @@
       <section id="contact_section">
         <div class="container">
           <h2>Contact</h2>
-          <!-- To be updated to send message without opening email client. -->
-          <form class="" action="mailto:efjonsson@gmail.com" method="post">
-            <label for="name">Name</label><input type="text" name="name" placeholder="Your name">
-            <label for="email">Email</label><input type="email" name="email" placeholder="youremail@domain.com">
-            <label for="">Message</label>
+          <form class="contact-form" action="https://formspree.io/your@email.com" method="POST">
+            <label for="name">Name</label><input type="text" name="name">
+            <label for="email">Email</label><input type="email" name="email">
+            <label for="message">Message</label>
             <textarea name="message" rows="10" cols="50"></textarea>
             <input class="submit" type="submit" name="submit" value="Email me">
           </form>

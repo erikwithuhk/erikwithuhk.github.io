@@ -38,6 +38,7 @@ Global styles
 body,
 button,
 input,
+textarea,
 label,
 .submit {
   font-family: 'Montserrat', sans-serif;
@@ -423,6 +424,10 @@ textarea {
   border-bottom-right-radius: 2px;
   padding: 0.5em;
   -webkit-appearance: none;
+}
+
+textarea {
+  text-align: left;
 }
 
 .submit {
