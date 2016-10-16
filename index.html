@@ -3,120 +3,119 @@
   <head>
     <meta charset="utf-8">
     <title>Erik Jönsson | Web Development Immersive Student</title>
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <header>
-      <div id="brand">
-        <a href="#">
-          <h1>Erik J<span>ö</span>nsson</h1>
-          <p>
-            Full-Stack Web Developer
+      <div class="brand">
+        <a class="brand_link" href="#">
+          <h1 class="brand_name">Erik J<span>ö</span>nsson</h1>
+          <p class="brand_title">
+            Software Engineer
           </p>
         </a>
       </div>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
+      <nav class="top-nav">
+        <a class="top-nav_link" href="#about">About</a>
+        <a class="top-nav_link" href="#work">Work</a>
+        <a class="top-nav_link" href="#contact">Contact</a>
       </nav>
     </header>
 
 
-      <section id="about">
-        <div class="container">
-          <div id="about_image">
-            <img src="images/Erik_Profile.jpg" alt="Erik Jönsson | Web Development Immersive student" />
-          </div>
-          <div id="about_text">
-            <h3>
-              I'm a Web Development Immersive student at General Assembly, learning to be a full-stack developer.
-            </h3>
-            <p>
-              I also have over 5 years of experience as a digital communications consultant, with expertise in web and email development, community engagement, SEO, analytics &amp; communications strategy.
-            </p>
-          </div>
-          <a href="#work" id="main_button" class="button" >See my work<i class="fa fa-angle-down"></i></a>
+    <section id="about">
+      <div class="container">
+        <div id="about_image">
+          <img src="images/Erik_Profile.jpg" alt="Erik Jönsson | Web Development Immersive student" />
         </div>
-
-      </section>
-
-      <a class="anchor" id="work"></a>
-      <section id="work_section">
-        <div class="container">
-          <h2>Work</h2>
-          <section id="work_container" class="clearfix">
-            <article id="whs" class="work-item">
-              <div class="work-image">
-                <img src="images/whsreunion.png" alt=""/>
-                <!-- Eventually my work images with have an overlay with the project name and technologies used -->
-                <div class="overlay">
-                  <h3>Washingtonville High School Class of 2006 Reunion</h3>
-                  <ul class="technologies">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="work-links clearfix">
-                <a href="http://whs2006reunion.com/" target="_blank" class="button live-button">Live</a>
-                <a href="https://github.com/erikwithuhk/whs2006reunion" target="_blank" class="button github-button">GitHub</a>
-              </div>
-            </article>
-            <article id="lunch" class="work-item">
-              <div class="work-image">
-                <img src="images/pop-the-bubbles.png" alt=""/>
-                <div class="overlay">
-                  <h3>Pop the Bubbles</h3>
-                  <ul class="technologies">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="work-links clearfix">
-                <a href="/pop-the-bubbles" target="_blank" class="button live-button">Live</a>
-                <a href="https://github.com/erikwithuhk/pop-the-bubbles" target="_blank" class="button github-button">GitHub</a>
-              </div>
-            </article>
-            <article id="memory" class="work-item">
-              <div class="work-image">
-                <img src="images/memorygame.png" alt=""/>
-                <div class="overlay">
-                  <h3>Memory game</h3>
-                  <ul class="technologies">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="work-links clearfix">
-                <a href="work/memory-game/index.html" target="_blank" class="button live-button">Live</a>
-                <a href="https://github.com/erikwithuhk/wdi-fundamentals-memorygame/tree/master/starter-code" target="_blank" class="button github-button">GitHub</a>
-              </div>
-            </article>
-          </section>
+        <div id="about_text">
+          <h3>
+            I'm a Web Development Immersive student at General Assembly, learning to be a full-stack developer.
+          </h3>
+          <p>
+            I also have over 5 years of experience as a digital communications consultant, with expertise in web and email development, community engagement, SEO, analytics &amp; communications strategy.
+          </p>
         </div>
-      </section>
+        <a href="#work" id="main_button" class="button" >See my work<i class="fa fa-angle-down"></i></a>
+      </div>
 
-      <a class="anchor" id="contact"></a>
-      <section id="contact_section">
-        <div class="container">
-          <h2>Contact</h2>
-          <form class="contact-form" action="https://formspree.io/efjonsson@gmail.com" method="POST">
-            <label for="name">Name</label><input type="text" name="name">
-            <label for="email">Email</label><input type="email" name="email">
-            <label for="message">Message</label>
-            <textarea name="message" rows="10" cols="50"></textarea>
-            <input class="submit" type="submit" name="submit" value="Email me">
-          </form>
-        </div>
-      </section>
+    </section>
+
+    <a class="anchor" id="work"></a>
+    <section id="work_section">
+      <div class="container">
+        <h2>Work</h2>
+        <section id="work_container" class="clearfix">
+          <article id="whs" class="work-item">
+            <div class="work-image">
+              <img src="images/whsreunion.png" alt=""/>
+              <div class="overlay">
+                <h3>Washingtonville High School Class of 2006 Reunion</h3>
+                <ul class="technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+            <div class="work-links clearfix">
+              <a href="http://whs2006reunion.com/" target="_blank" class="button live-button">Live</a>
+              <a href="https://github.com/erikwithuhk/whs2006reunion" target="_blank" class="button github-button">GitHub</a>
+            </div>
+          </article>
+          <article id="lunch" class="work-item">
+            <div class="work-image">
+              <img src="images/pop-the-bubbles.png" alt=""/>
+              <div class="overlay">
+                <h3>Pop the Bubbles</h3>
+                <ul class="technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+            </div>
+            <div class="work-links clearfix">
+              <a href="/pop-the-bubbles" target="_blank" class="button live-button">Live</a>
+              <a href="https://github.com/erikwithuhk/pop-the-bubbles" target="_blank" class="button github-button">GitHub</a>
+            </div>
+          </article>
+          <article id="memory" class="work-item">
+            <div class="work-image">
+              <img src="images/memorygame.png" alt=""/>
+              <div class="overlay">
+                <h3>Memory game</h3>
+                <ul class="technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+            </div>
+            <div class="work-links clearfix">
+              <a href="work/memory-game/index.html" target="_blank" class="button live-button">Live</a>
+              <a href="https://github.com/erikwithuhk/wdi-fundamentals-memorygame/tree/master/starter-code" target="_blank" class="button github-button">GitHub</a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <a class="anchor" id="contact"></a>
+    <section id="contact_section">
+      <div class="container">
+        <h2>Contact</h2>
+        <form class="contact-form" action="https://formspree.io/efjonsson@gmail.com" method="POST">
+          <label for="name">Name</label><input type="text" name="name">
+          <label for="email">Email</label><input type="email" name="email">
+          <label for="message">Message</label>
+          <textarea name="message" rows="10" cols="50"></textarea>
+          <input class="submit" type="submit" name="submit" value="Email me">
+        </form>
+      </div>
+    </section>
 
 
     <footer class="clearfix">
