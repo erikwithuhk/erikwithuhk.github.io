@@ -648,7 +648,7 @@ Media queries
     label,
     input,
     textarea {
-      width: 40%;
+      width: 80%;
     }
 
     .overlay {
@@ -657,8 +657,10 @@ Media queries
 }
 
 @media screen and (min-width: 650px) {
-  .overlay {
-    padding: 2em;
+  label,
+  input,
+  textarea {
+    width: 60%;
   }
 }
 
@@ -734,12 +736,17 @@ Media queries
 
   .overlay {
     font-size: 0.75em;
-    padding: 0.75em;
   }
 }
 
 @media screen and (min-width: 960px) {
   .container {
     padding: 3em 0em 0em;
+  }
+
+  label,
+  input,
+  textarea {
+    width: 50%;
   }
 }
