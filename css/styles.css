@@ -145,7 +145,6 @@ header {
 .brand_title {
   animation-name: slide-from-left;
   animation-duration: 1s;
-  /*animation-delay: 1s;*/
   font-size: 1.05rem;
   letter-spacing: 0.1171rem;
   position: relative;
@@ -197,8 +196,8 @@ About
 }
 
 #about,
-#work_section,
-#contact_section {
+.work_section,
+.contact_section {
   margin-bottom: 0;
   min-height: 100%;
 }
@@ -206,6 +205,7 @@ About
 #about {
   animation-name: fade-in;
   animation-duration: 3s;
+  border-bottom: 1px solid #ccc;
   padding-top: 120px;
 }
 
@@ -294,15 +294,15 @@ About
 Work
 ======================= */
 
-#work_section {
-  background-color: #3498DB;
+.work_section {
+  background-color: #ecf0f1;
   border-bottom: 120px solid #fff;
-  color: #fff;
+  color: #000;
   margin-bottom: -120px;
 }
 
-#work_section h2,
-#contact_section h2 {
+.work_section h2,
+.contact_section h2 {
   text-align: center;
 }
 
@@ -315,23 +315,89 @@ a.anchor {
     visibility: hidden;
 }
 
-#work_container {
+.work_container {
   margin: 3em auto;
 }
 
-#work_container:last-child {
-  margin-right: 0;
+.browser {
+  position: relative;
+}
+
+.browser-header {
+  background-color: #ccc;
+  border: 1px solid #bbb;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0.25rem 0.75rem;
+  position: relative;
+}
+
+.browser-button {
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.browser-text {
+  color: #222;
+  display: inline-block;
+  font-size: 0.75rem;
+  position: absolute;
+  left: 25%;
+  top: 0.5rem;
+  text-align: center;
+  width: 50%;
+}
+
+.browser .red {
+  background-color: #f31437;
+}
+
+.browser .yellow {
+  background-color: #ffc300;
+}
+
+.browser .green {
+  background-color: #00c516;
 }
 
 .work-item {
-  margin: 0 auto;
-  width: 70%;
+  margin: 2rem auto;
+  position: relative;
+  width: 90%;
+}
+
+.work_container:last-child {
+  margin-right: 0;
+}
+
+.work-image {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 0;
+  padding-bottom: 50%;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.mason-jar-salads .work-image {
+  background: url('../images/mason-jar-salads.png') no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 .overlay {
   background: rgba(0, 0, 0, 0.72);
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0.875em;
-  margin: 12% 15% 20%;
   padding: 1.5em;
   position: absolute;
   text-align: center;
@@ -348,8 +414,13 @@ a.anchor {
   -o-transition: visibility 0.2s, opacity 0.2s;
 }
 
-.work-image:hover div.overlay h3,
-.work-image:hover div.overlay ul {
+.technologies::before {
+  content: 'Technologies used:';
+  font-color: #fff;
+  font-weight: bold;
+}
+
+.work-item:hover div.overlay ul {
   animation-name: slide-from-right;
   animation-duration: 0.5s;
   position: relative;
@@ -380,35 +451,21 @@ a.anchor {
   padding: 0;
 }
 
-.work-image {
-  position: relative;
-}
-
-.work-image img {
-  width: 100%;
-}
-
 .work-links {
   text-align: center;
 }
-
-.live-button,
-.github-button {
-  border-color: #2c3e50;
-  color: #2c3e50;
-  margin: 0 0.25em;
-}
-
-.live-button:hover,
-.github-button:hover {
-  background-color: #2c3e50;
-}
-
 
 
 /* =======================
 Contact
 ======================= */
+
+.contact_section {
+  background-color: #3498DB;
+  border-top: 1px solid #ccc;
+  color: #fff;
+  padding-bottom: 1rem;
+}
 
 label,
 input,
@@ -520,7 +577,7 @@ Media queries
     padding-top: 135px;
   }
 
-  #work_section {
+  .work_section {
     border-width: 135px;
     margin-bottom: -135px;
   }
@@ -620,14 +677,15 @@ Media queries
     transition: all 0.25s;
   }
 
-  #work_section {
+  .work_section {
     border-width: 137px;
     margin-bottom: -137px;
   }
 
   .work-item {
     float: left;
-    width: 32%;
+    margin: 0 2%;
+    width: 29%;
   }
 
   a.anchor {
