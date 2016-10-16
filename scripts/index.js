@@ -13,11 +13,22 @@ const bouncingButton = setInterval(() => {
   }, 450);
 }, 3000);
 
+function removeValidation(node) {
+  setTimeout(() => {
+    node.remove();
+  }, 5000);
+}
+
 function submitForm(e) {
   e.preventDefault();
   const contactForm = document.querySelector('.contact-form');
-  console.log(contactForm.elements);
+  const contactContainerNode = document.querySelector('.contact_section').querySelector('.container');
   contactForm.reset();
+  const validationEl = document.createElement('p');
+  validationEl.classList.add('contact-validation');
+  validationEl.textContent = 'Your message has been sent.';
+  contactContainerNode.appendChild(validationEl);
+  removeValidation(validationEl);
 }
 
 window.onload = function() {
