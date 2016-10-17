@@ -1,4 +1,4 @@
-const $contactForm = $('#contact-form');
+const $contactForm = $('.contact-form');
 $contactForm.submit(function(e) {
 	e.preventDefault();
 	$.ajax({
