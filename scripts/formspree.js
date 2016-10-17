@@ -2,7 +2,7 @@ function removeAlert() {
   setTimeout(() => {
     const alertNode = document.querySelector('.alert');
     alertNode.remove();
-  }, 3000);
+  }, 5000);
 }
 
 const $contactForm = $('.contact-form');
@@ -26,5 +26,6 @@ $contactForm.submit(function(e) {
 			$contactForm.append('<div class="alert alert--error">Oops, there was an error.</div>');
 		}
 	});
-  removeAlert();
 });
+
+removeAlert();
