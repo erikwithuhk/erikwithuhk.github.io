@@ -20,7 +20,6 @@ function removeValidation(node) {
 }
 
 function submitForm(e) {
-  // e.preventDefault();
   const contactForm = document.querySelector('.contact-form');
   const contactContainerNode = document.querySelector('.contact_section').querySelector('.container');
   contactForm.reset();
