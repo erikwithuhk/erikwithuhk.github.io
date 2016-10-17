@@ -1,7 +1,6 @@
 function removeAlert() {
-  const alertNode = document.querySelector('.alert');
-  console.log(alertNode);
   setTimeout(() => {
+    const alertNode = document.querySelector('.alert');
     alertNode.remove();
   }, 5000);
 }
