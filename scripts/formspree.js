@@ -1,10 +1,3 @@
-function removeAlert() {
-  setTimeout(() => {
-    const alertNode = document.querySelector('.alert');
-    alertNode.remove();
-  }, 5000);
-}
-
 const $contactForm = $('.contact-form');
 $contactForm.submit(function(e) {
 	e.preventDefault();
@@ -27,5 +20,3 @@ $contactForm.submit(function(e) {
 		}
 	});
 });
-
-removeAlert();
