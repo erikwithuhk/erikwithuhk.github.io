@@ -1,5 +1,6 @@
 function removeAlert() {
   const alertNode = document.querySelector('.alert');
+  console.log(alertNode);
   setTimeout(() => {
     alertNode.remove();
   }, 5000);
@@ -19,7 +20,7 @@ $contactForm.submit(function(e) {
 		success: function(data) {
 			$contactForm.find('.alert--loading').hide();
 			$contactForm.append('<div class="alert alert--success">Message sent!</div>');
-      $contactForm.reset();
+      $contactForm[0].reset();
       removeAlert();
 		},
 		error: function(err) {
