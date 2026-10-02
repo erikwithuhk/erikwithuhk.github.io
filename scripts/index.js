@@ -13,6 +13,15 @@ const main = () => {
       workButton.style.bottom = "2em";
     }, 450);
   }, 3000);
+
+  const setDate = () => {
+    const now = new Date(Date.now());
+    const copyrightYearElement = document.querySelector("#copyright-year");
+    if (copyrightYearElement) {
+      copyrightYearElement.textContent = now.getFullYear();
+    }
+  };
+  setDate();
 };
 
 main();
